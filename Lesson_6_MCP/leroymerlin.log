@@ -1,0 +1,1433 @@
+C:\Users\Smart\AppData\Local\Programs\Python\Python37\python.exe "G:/dev/Geekbrains/2020.06 Data Collection and Process methods/hw/leroymerlin/runner.py"
+2020-07-05 07:10:52 [scrapy.utils.log] INFO: Scrapy 2.2.0 started (bot: leroymerlin)
+2020-07-05 07:10:52 [scrapy.utils.log] INFO: Versions: lxml 4.5.1.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.17763-SP0
+2020-07-05 07:10:52 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-07-05 07:10:52 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'leroymerlin',
+ 'CONCURRENT_REQUESTS': 8,
+ 'DOWNLOAD_DELAY': 1.5,
+ 'NEWSPIDER_MODULE': 'leroymerlin.spiders',
+ 'SPIDER_MODULES': ['leroymerlin.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36'}
+2020-07-05 07:10:52 [scrapy.extensions.telnet] INFO: Telnet Password: c6d450c212aa8085
+2020-07-05 07:10:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-07-05 07:10:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-07-05 07:10:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-07-05 07:10:52 [scrapy.middleware] INFO: Enabled item pipelines:
+['leroymerlin.pipelines.LeroymerlinPipeline',
+ 'leroymerlin.pipelines.DataBasePipeline']
+2020-07-05 07:10:52 [scrapy.core.engine] INFO: Spider opened
+2020-07-05 07:10:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-07-05 07:10:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-07-05 07:10:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA> (referer: None)
+2020-07-05 07:10:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-27-mm-81968476/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:10:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968476.jpg> (referer: None)
+2020-07-05 07:10:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968476.jpg> referred in <None>
+2020-07-05 07:10:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968476_01.jpg> (referer: None)
+2020-07-05 07:10:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968476_01.jpg> referred in <None>
+2020-07-05 07:10:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-gvozdoder-matrix-570-g-s-dvuhkomponentnoy-ruchkoy-15493291/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:10:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-27-mm-81968476/>
+{'_id': '81968476',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-27-mm-81968476/',
+ 'name': 'Молоток слесарный Dexter 27 мм, 500 г',
+ 'parameters': {'Вес бойка (г)': '500.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '29.5',
+                'Материал ручки': 'Пластик',
+                'Основной материал': 'Углеродистая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Немецкий молот',
+                'Ширина головы (см)': '0.27'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968476.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968476_01.jpg'],
+ 'price': 473.0}
+2020-07-05 07:10:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291.jpg> (referer: None)
+2020-07-05 07:10:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291.jpg> referred in <None>
+2020-07-05 07:10:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-matrix-82359961/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:11:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-100-g-derevyannaya-ruchka-82116375/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:11:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_01.jpg> (referer: None)
+2020-07-05 07:11:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_01.jpg> referred in <None>
+2020-07-05 07:11:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_02.jpg> (referer: None)
+2020-07-05 07:11:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_02.jpg> referred in <None>
+2020-07-05 07:11:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-pechnika-82168326/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:11:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_03.jpg> (referer: None)
+2020-07-05 07:11:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_03.jpg> referred in <None>
+2020-07-05 07:11:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-plotnickiy-stanley-fiberglass-latt-hammer-600-g-82173276/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:11:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-220-g-81968464/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:11:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_04.jpg> (referer: None)
+2020-07-05 07:11:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_04.jpg> referred in <None>
+2020-07-05 07:11:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-gvozdoder-matrix-570-g-s-dvuhkomponentnoy-ruchkoy-15493291/>
+{'_id': '15493291',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-gvozdoder-matrix-570-g-s-dvuhkomponentnoy-ruchkoy-15493291/',
+ 'name': 'Молоток-гвоздодёр Matrix 570 г с двухкомпонентной ручкой',
+ 'parameters': {'Вес бойка (г)': '570.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '28.0',
+                'Материал ручки': 'Сталь с покрытием',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '2.95'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15493291_04.jpg'],
+ 'price': 932.0}
+2020-07-05 07:11:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-300-g-derevyannaya-ruchka-82116376/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:11:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961.jpg> (referer: None)
+2020-07-05 07:11:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961.jpg> referred in <None>
+2020-07-05 07:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:11:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\utils\python.py", line 346, in __next__
+    return next(self.data)
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\utils\python.py", line 346, in __next__
+    return next(self.data)
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "G:\dev\Geekbrains\2020.06 Data Collection and Process methods\hw\leroymerlin\spiders\lm.py", line 26, in parse
+    callback=self.parse)  # Переходим по ссылке на следующую страницу и возвращаемся к началу метода parse
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\http\response\text.py", line 179, in follow
+    flags=flags,
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\http\response\__init__.py", line 142, in follow
+    raise ValueError("url can't be None")
+ValueError: url can't be None
+2020-07-05 07:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_01.jpg> (referer: None)
+2020-07-05 07:11:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_01.jpg> referred in <None>
+2020-07-05 07:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_02.jpg> (referer: None)
+2020-07-05 07:11:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_02.jpg> referred in <None>
+2020-07-05 07:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexell-1000-g-s-fiberglassovoy-ruchkoy-13978286/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:11:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_03.jpg> (referer: None)
+2020-07-05 07:11:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_03.jpg> referred in <None>
+2020-07-05 07:11:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-matrix-82359961/>
+{'_id': '82359961',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-matrix-82359961/',
+ 'name': 'Киянка Matrix, 450 г, резиновая с фиберглассовой ручкой',
+ 'parameters': {'Вес': '0.66',
+                'Вес, кг': '4.4',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '27.0',
+                'Марка': 'MATRIX',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Двухкомпонентный',
+                'Модель продукта': 'киянка',
+                'Основной материал': 'Резина',
+                'Применение продукта': 'Предназначены для монтажных и '
+                                       'сборочных работ, а также для укладки '
+                                       'напольной, стеновой и тротуарной '
+                                       'плитки.',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359961_03.jpg'],
+ 'price': 496.0}
+2020-07-05 07:11:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375.jpg> (referer: None)
+2020-07-05 07:11:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375.jpg> referred in <None>
+2020-07-05 07:11:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_01.jpg> (referer: None)
+2020-07-05 07:11:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_01.jpg> referred in <None>
+2020-07-05 07:11:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_02.jpg> (referer: None)
+2020-07-05 07:11:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_02.jpg> referred in <None>
+2020-07-05 07:11:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_03.jpg> (referer: None)
+2020-07-05 07:11:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_03.jpg> referred in <None>
+2020-07-05 07:11:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_04.jpg> (referer: None)
+2020-07-05 07:11:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_04.jpg> referred in <None>
+2020-07-05 07:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_05.jpg> (referer: None)
+2020-07-05 07:11:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_05.jpg> referred in <None>
+2020-07-05 07:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-100-g-derevyannaya-ruchka-82116375/>
+{'_id': '82116375',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-100-g-derevyannaya-ruchka-82116375/',
+ 'name': 'Молоток слесарный 100 г деревянная ручка',
+ 'parameters': {'Вес бойка (г)': '100.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '26.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '1.8'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116375_05.jpg'],
+ 'price': 76.0}
+2020-07-05 07:11:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326.jpg> (referer: None)
+2020-07-05 07:11:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326.jpg> referred in <None>
+2020-07-05 07:11:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_01.jpg> (referer: None)
+2020-07-05 07:11:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_01.jpg> referred in <None>
+2020-07-05 07:11:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_02.jpg> (referer: None)
+2020-07-05 07:11:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_02.jpg> referred in <None>
+2020-07-05 07:11:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_03.jpg> (referer: None)
+2020-07-05 07:11:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_03.jpg> referred in <None>
+2020-07-05 07:11:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_04.jpg> (referer: None)
+2020-07-05 07:11:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_04.jpg> referred in <None>
+2020-07-05 07:11:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_05.jpg> (referer: None)
+2020-07-05 07:11:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_05.jpg> referred in <None>
+2020-07-05 07:11:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-pechnika-82168326/>
+{'_id': '82168326',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-pechnika-82168326/',
+ 'name': 'Молоток печника, 600 г, деревянная рукоятка',
+ 'parameters': {'Вес бойка (г)': '600.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '26.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Россия',
+                'Тип продукта': 'Молоток печника',
+                'Ширина головы (см)': '2.7'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168326_05.jpg'],
+ 'price': 431.0}
+2020-07-05 07:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276.jpg> (referer: None)
+2020-07-05 07:11:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276.jpg> referred in <None>
+2020-07-05 07:11:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_01.jpg> (referer: None)
+2020-07-05 07:11:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_01.jpg> referred in <None>
+2020-07-05 07:11:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_02.jpg> (referer: None)
+2020-07-05 07:11:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_02.jpg> referred in <None>
+2020-07-05 07:11:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_03.jpg> (referer: None)
+2020-07-05 07:11:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_03.jpg> referred in <None>
+2020-07-05 07:11:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_04.jpg> (referer: None)
+2020-07-05 07:11:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_04.jpg> referred in <None>
+2020-07-05 07:11:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_05.jpg> (referer: None)
+2020-07-05 07:11:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_05.jpg> referred in <None>
+2020-07-05 07:11:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-plotnickiy-stanley-fiberglass-latt-hammer-600-g-82173276/>
+{'_id': '82173276',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-plotnickiy-stanley-fiberglass-latt-hammer-600-g-82173276/',
+ 'name': 'Молоток плотницкий Stanley Fiberglass Latt Hammer 600 г, '
+         'фиберглассовая рукоятка',
+ 'parameters': {'Вес бойка (г)': '600.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '28.0',
+                'Материал ручки': 'Стекловолокно/Фибергласс',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Тайвань',
+                'Тип продукта': 'Молоток кровельщика',
+                'Ширина головы (см)': '2.7'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173276_05.jpg'],
+ 'price': 1452.0}
+2020-07-05 07:11:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464.jpg> (referer: None)
+2020-07-05 07:11:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464.jpg> referred in <None>
+2020-07-05 07:11:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_01.jpg> (referer: None)
+2020-07-05 07:11:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_01.jpg> referred in <None>
+2020-07-05 07:11:52 [scrapy.extensions.logstats] INFO: Crawled 42 pages (at 42 pages/min), scraped 6 items (at 6 items/min)
+2020-07-05 07:11:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_02.jpg> (referer: None)
+2020-07-05 07:11:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_02.jpg> referred in <None>
+2020-07-05 07:11:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_03.jpg> (referer: None)
+2020-07-05 07:11:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_03.jpg> referred in <None>
+2020-07-05 07:11:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-220-g-81968464/>
+{'_id': '81968464',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-220-g-81968464/',
+ 'name': 'Киянка 220 г, чёрная резиновая, деревянная ручка',
+ 'parameters': {'Вес': '270.0',
+                'Вес, кг': '0.304',
+                'Гарантия (лет)': '1',
+                'Длина ручки (см)': '21.0',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Резина',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968464_03.jpg'],
+ 'price': 106.0}
+2020-07-05 07:11:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376.jpg> (referer: None)
+2020-07-05 07:11:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376.jpg> referred in <None>
+2020-07-05 07:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_01.jpg> (referer: None)
+2020-07-05 07:12:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_01.jpg> referred in <None>
+2020-07-05 07:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_02.jpg> (referer: None)
+2020-07-05 07:12:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_02.jpg> referred in <None>
+2020-07-05 07:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_03.jpg> (referer: None)
+2020-07-05 07:12:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_03.jpg> referred in <None>
+2020-07-05 07:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_04.jpg> (referer: None)
+2020-07-05 07:12:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_04.jpg> referred in <None>
+2020-07-05 07:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-gross-82168175/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-s-pryamym-gvozdoderom-stanley-fatmax-antivibe-450-g-82058880/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_05.jpg> (referer: None)
+2020-07-05 07:12:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_05.jpg> referred in <None>
+2020-07-05 07:12:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-300-g-derevyannaya-ruchka-82116376/>
+{'_id': '82116376',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-300-g-derevyannaya-ruchka-82116376/',
+ 'name': 'Молоток слесарный 300 г деревянная ручка',
+ 'parameters': {'Вес бойка (г)': '300.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '30.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '2.0'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116376_05.jpg'],
+ 'price': 113.0}
+2020-07-05 07:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286.jpg> (referer: None)
+2020-07-05 07:12:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286.jpg> referred in <None>
+2020-07-05 07:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-gross-82168176/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-s-izognutym-gvozdoderom-stanley-fatmax-antivibe-454-g-82173157/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:12:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_01.jpg> (referer: None)
+2020-07-05 07:12:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_01.jpg> referred in <None>
+2020-07-05 07:12:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_02.jpg> (referer: None)
+2020-07-05 07:12:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_02.jpg> referred in <None>
+2020-07-05 07:12:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_03.jpg> (referer: None)
+2020-07-05 07:12:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_03.jpg> referred in <None>
+2020-07-05 07:12:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_04.jpg> (referer: None)
+2020-07-05 07:12:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_04.jpg> referred in <None>
+2020-07-05 07:12:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexell-1000-g-s-fiberglassovoy-ruchkoy-13978286/>
+{'_id': '13978286',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexell-1000-g-s-fiberglassovoy-ruchkoy-13978286/',
+ 'name': 'Молоток слесарный Dexell 1000 г с фиберглассовой ручкой',
+ 'parameters': {'Вес бойка (г)': '1000.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '36.0',
+                'Материал ручки': 'Стекловолокно/Фибергласс',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '13.0'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978286_04.jpg'],
+ 'price': 236.0}
+2020-07-05 07:12:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175.jpg> (referer: None)
+2020-07-05 07:12:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175.jpg> referred in <None>
+2020-07-05 07:12:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175_01.jpg> (referer: None)
+2020-07-05 07:12:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175_01.jpg> referred in <None>
+2020-07-05 07:12:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175_02.jpg> (referer: None)
+2020-07-05 07:12:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175_02.jpg> referred in <None>
+2020-07-05 07:12:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-gross-82168175/>
+{'_id': '82168175',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-gross-82168175/',
+ 'name': 'Молоток слесарный Gross, 300 г, трёхкомпонентная рукоятка',
+ 'parameters': {'Вес бойка (г)': '300.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '26.0',
+                'Материал ручки': 'Сталь с покрытием',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Тайвань',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '2.8'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168175_02.jpg'],
+ 'price': 2137.0}
+2020-07-05 07:12:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880.jpg> (referer: None)
+2020-07-05 07:12:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880.jpg> referred in <None>
+2020-07-05 07:12:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_01.jpg> (referer: None)
+2020-07-05 07:12:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_01.jpg> referred in <None>
+2020-07-05 07:12:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_02.jpg> (referer: None)
+2020-07-05 07:12:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_02.jpg> referred in <None>
+2020-07-05 07:12:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_03.jpg> (referer: None)
+2020-07-05 07:12:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_03.jpg> referred in <None>
+2020-07-05 07:12:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_04.jpg> (referer: None)
+2020-07-05 07:12:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_04.jpg> referred in <None>
+2020-07-05 07:12:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_05.jpg> (referer: None)
+2020-07-05 07:12:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_05.jpg> referred in <None>
+2020-07-05 07:12:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-s-pryamym-gvozdoderom-stanley-fatmax-antivibe-450-g-82058880/>
+{'_id': '82058880',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-s-pryamym-gvozdoderom-stanley-fatmax-antivibe-450-g-82058880/',
+ 'name': 'Молоток с прямым гвоздодером Stanley FatMax AntiVibe 450 г, '
+         'композитная рукоятка',
+ 'parameters': {'Вес бойка (г)': '454.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '28.0',
+                'Материал ручки': 'Композитный трехкомпонентный',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Мексика',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '3.4'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058880_05.jpg'],
+ 'price': 2185.0}
+2020-07-05 07:12:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176.jpg> (referer: None)
+2020-07-05 07:12:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176.jpg> referred in <None>
+2020-07-05 07:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176_01.jpg> (referer: None)
+2020-07-05 07:12:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176_01.jpg> referred in <None>
+2020-07-05 07:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-demontazhnyy-stanley-fatmax-620-g-82058883/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176_02.jpg> (referer: None)
+2020-07-05 07:12:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176_02.jpg> referred in <None>
+2020-07-05 07:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/nakovalnya-kuznechnaya-sibrteh-82478489/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-gross-82168176/>
+{'_id': '82168176',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-gross-82168176/',
+ 'name': 'Молоток слесарный Gross, 500 г, трёхкомпонентная рукоятка',
+ 'parameters': {'Вес бойка (г)': '500.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '27.0',
+                'Материал ручки': 'Сталь с покрытием',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Тайвань',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '2.9'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168176_02.jpg'],
+ 'price': 2354.0}
+2020-07-05 07:12:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157.jpg> (referer: None)
+2020-07-05 07:12:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157.jpg> referred in <None>
+2020-07-05 07:12:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_01.jpg> (referer: None)
+2020-07-05 07:12:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_01.jpg> referred in <None>
+2020-07-05 07:12:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_02.jpg> (referer: None)
+2020-07-05 07:12:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_02.jpg> referred in <None>
+2020-07-05 07:12:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_03.jpg> (referer: None)
+2020-07-05 07:12:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_03.jpg> referred in <None>
+2020-07-05 07:12:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_04.jpg> (referer: None)
+2020-07-05 07:12:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_04.jpg> referred in <None>
+2020-07-05 07:12:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_05.jpg> (referer: None)
+2020-07-05 07:12:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_05.jpg> referred in <None>
+2020-07-05 07:12:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-s-izognutym-gvozdoderom-stanley-fatmax-antivibe-454-g-82173157/>
+{'_id': '82173157',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-s-izognutym-gvozdoderom-stanley-fatmax-antivibe-454-g-82173157/',
+ 'name': 'Молоток с изогнутым гвоздодером Stanley FatMax AntiVibe 454 г, '
+         'композитная рукоятка',
+ 'parameters': {'Вес бойка (г)': '454.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '28.0',
+                'Материал ручки': 'Композитный трехкомпонентный',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Мексика',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '3.4'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173157_05.jpg'],
+ 'price': 2185.0}
+2020-07-05 07:12:52 [scrapy.extensions.logstats] INFO: Crawled 79 pages (at 37 pages/min), scraped 13 items (at 7 items/min)
+2020-07-05 07:12:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883.jpg> (referer: None)
+2020-07-05 07:12:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883.jpg> referred in <None>
+2020-07-05 07:12:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_01.jpg> (referer: None)
+2020-07-05 07:12:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_01.jpg> referred in <None>
+2020-07-05 07:12:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-sparta-82168331/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:12:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_02.jpg> (referer: None)
+2020-07-05 07:12:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_02.jpg> referred in <None>
+2020-07-05 07:12:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-82213915/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:12:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_03.jpg> (referer: None)
+2020-07-05 07:12:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_03.jpg> referred in <None>
+2020-07-05 07:13:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_04.jpg> (referer: None)
+2020-07-05 07:13:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_04.jpg> referred in <None>
+2020-07-05 07:13:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_05.jpg> (referer: None)
+2020-07-05 07:13:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_05.jpg> referred in <None>
+2020-07-05 07:13:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-demontazhnyy-stanley-fatmax-620-g-82058883/>
+{'_id': '82058883',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-demontazhnyy-stanley-fatmax-620-g-82058883/',
+ 'name': 'Молоток демонтажный Stanley FatMax 620 г, композитная рукоятка',
+ 'parameters': {'Вес бойка (г)': '624.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '35.0',
+                'Материал ручки': 'Композитный материал',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Тайвань',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '3.4'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82058883_05.jpg'],
+ 'price': 2133.0}
+2020-07-05 07:13:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489.jpg> (referer: None)
+2020-07-05 07:13:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489.jpg> referred in <None>
+2020-07-05 07:13:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489_01.jpg> (referer: None)
+2020-07-05 07:13:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489_01.jpg> referred in <None>
+2020-07-05 07:13:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489_02.jpg> (referer: None)
+2020-07-05 07:13:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489_02.jpg> referred in <None>
+2020-07-05 07:13:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/nakovalnya-kuznechnaya-sibrteh-82478489/>
+{'_id': '82478489',
+ 'link': 'https://samara.leroymerlin.ru/product/nakovalnya-kuznechnaya-sibrteh-82478489/',
+ 'name': 'Наковальня кузнечная Сибртех, однорогая, 450 г',
+ 'parameters': {'Вес, кг': '0.54',
+                'Высота (см)': '4.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина (см)': '10.0',
+                'Основной материал': 'Чугун',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Наковальня',
+                'Тип упаковки': 'Без упаковки',
+                'Цвет': 'серый',
+                'Цветовая палитра': 'Серый / Серебристый',
+                'Ширина (см)': '8.5'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82478489_02.jpg'],
+ 'price': 336.0}
+2020-07-05 07:13:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331.jpg> (referer: None)
+2020-07-05 07:13:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331.jpg> referred in <None>
+2020-07-05 07:13:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_01.jpg> (referer: None)
+2020-07-05 07:13:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_01.jpg> referred in <None>
+2020-07-05 07:13:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_02.jpg> (referer: None)
+2020-07-05 07:13:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_02.jpg> referred in <None>
+2020-07-05 07:13:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_03.jpg> (referer: None)
+2020-07-05 07:13:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_03.jpg> referred in <None>
+2020-07-05 07:13:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-kovanyy-82214402/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:13:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_04.jpg> (referer: None)
+2020-07-05 07:13:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_04.jpg> referred in <None>
+2020-07-05 07:13:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-sparta-82168331/>
+{'_id': '82168331',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-sparta-82168331/',
+ 'name': 'Киянка Sparta, деревянная',
+ 'parameters': {'Вес, кг': '0.339',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '28.0',
+                'Марка': 'СИБРТЕХ',
+                'Материал головки': 'Дерево',
+                'Материал ручки': 'Дерево',
+                'Страна производства': 'Россия',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82168331_04.jpg'],
+ 'price': 180.0}
+2020-07-05 07:13:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/napravlyayushchaya-dlya-gvozdey-12907275/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:13:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915.jpg> (referer: None)
+2020-07-05 07:13:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915.jpg> referred in <None>
+2020-07-05 07:13:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_01.jpg> (referer: None)
+2020-07-05 07:13:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_01.jpg> referred in <None>
+2020-07-05 07:13:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_02.jpg> (referer: None)
+2020-07-05 07:13:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_02.jpg> referred in <None>
+2020-07-05 07:13:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_03.jpg> (referer: None)
+2020-07-05 07:13:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_03.jpg> referred in <None>
+2020-07-05 07:13:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_04.jpg> (referer: None)
+2020-07-05 07:13:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_04.jpg> referred in <None>
+2020-07-05 07:13:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_05.jpg> (referer: None)
+2020-07-05 07:13:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_05.jpg> referred in <None>
+2020-07-05 07:13:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-82213915/>
+{'_id': '82213915',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-82213915/',
+ 'name': 'Молоток слесарный, 500 г, деревянная рукоятка',
+ 'parameters': {'Вес бойка (г)': '500.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '28.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Россия',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '2.8'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82213915_05.jpg'],
+ 'price': 301.0}
+2020-07-05 07:13:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402.jpg> (referer: None)
+2020-07-05 07:13:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402.jpg> referred in <None>
+2020-07-05 07:13:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/nakovalnya-rihtovochnaya-ag010140-82109884/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:13:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_01.jpg> (referer: None)
+2020-07-05 07:13:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_01.jpg> referred in <None>
+2020-07-05 07:13:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-kovanyy-82214403/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:13:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_02.jpg> (referer: None)
+2020-07-05 07:13:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_02.jpg> referred in <None>
+2020-07-05 07:13:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_03.jpg> (referer: None)
+2020-07-05 07:13:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_03.jpg> referred in <None>
+2020-07-05 07:13:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-kovanyy-82214402/>
+{'_id': '82214402',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-kovanyy-82214402/',
+ 'name': 'Молоток кованый, 100 г, деревянная рукоятка',
+ 'parameters': {'Вес бойка (г)': '100.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '26.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '1.5'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214402_03.jpg'],
+ 'price': 131.0}
+2020-07-05 07:13:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275.jpg> (referer: None)
+2020-07-05 07:13:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275.jpg> referred in <None>
+2020-07-05 07:13:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_01.jpg> (referer: None)
+2020-07-05 07:13:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_01.jpg> referred in <None>
+2020-07-05 07:13:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_02.jpg> (referer: None)
+2020-07-05 07:13:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_02.jpg> referred in <None>
+2020-07-05 07:13:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_03.jpg> (referer: None)
+2020-07-05 07:13:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_03.jpg> referred in <None>
+2020-07-05 07:13:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/napravlyayushchaya-dlya-gvozdey-12907275/>
+{'_id': '12907275',
+ 'link': 'https://samara.leroymerlin.ru/product/napravlyayushchaya-dlya-gvozdey-12907275/',
+ 'name': 'Направляющая для гвоздей, пластик',
+ 'parameters': {'Вес, кг': '0.013',
+                'Марка': 'ARCHIMEDES',
+                'Основной материал': 'Пластик'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/12907275_03.jpg'],
+ 'price': 50.0}
+2020-07-05 07:13:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884.jpg> (referer: None)
+2020-07-05 07:13:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884.jpg> referred in <None>
+2020-07-05 07:13:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-kovanyy-82214405/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:13:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_01.jpg> (referer: None)
+2020-07-05 07:13:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_01.jpg> referred in <None>
+2020-07-05 07:13:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-matrix-82356519/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:13:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_02.jpg> (referer: None)
+2020-07-05 07:13:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_02.jpg> referred in <None>
+2020-07-05 07:13:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_03.jpg> (referer: None)
+2020-07-05 07:13:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_03.jpg> referred in <None>
+2020-07-05 07:13:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/nakovalnya-rihtovochnaya-ag010140-82109884/>
+{'_id': '82109884',
+ 'link': 'https://samara.leroymerlin.ru/product/nakovalnya-rihtovochnaya-ag010140-82109884/',
+ 'name': 'Наковальня рихтовочная AG010140',
+ 'parameters': {'Вес, кг': '0.301',
+                'Высота (см)': '14.0',
+                'Длина (см)': '12.0',
+                'Марка': 'JONNESWAY',
+                'Модель продукта': 'AG010140',
+                'Основной материал': 'Сталь',
+                'Применение продукта': 'Небольшое приспособление для одной '
+                                       'руки включает в себя три оправки для '
+                                       'жестяных работ. Универсальный '
+                                       'инструмент, применяющийся в качестве '
+                                       'поддержки для первичного обучения и '
+                                       'производства простых работ по '
+                                       'кузовному ремонту. ',
+                'Страна производства': 'Тайвань',
+                'Тип продукта': 'Наковальня',
+                'Тип упаковки': 'Блистерная упаковка',
+                'Цветовая палитра': 'Черный',
+                'Ширина (см)': '4.0'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82109884_03.jpg'],
+ 'price': 1151.0}
+2020-07-05 07:13:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403.jpg> (referer: None)
+2020-07-05 07:13:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403.jpg> referred in <None>
+2020-07-05 07:13:52 [scrapy.extensions.logstats] INFO: Crawled 120 pages (at 41 pages/min), scraped 20 items (at 7 items/min)
+2020-07-05 07:13:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_01.jpg> (referer: None)
+2020-07-05 07:13:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_01.jpg> referred in <None>
+2020-07-05 07:13:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_02.jpg> (referer: None)
+2020-07-05 07:13:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_02.jpg> referred in <None>
+2020-07-05 07:13:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_03.jpg> (referer: None)
+2020-07-05 07:13:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_03.jpg> referred in <None>
+2020-07-05 07:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-kovanyy-82214403/>
+{'_id': '82214403',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-kovanyy-82214403/',
+ 'name': 'Молоток кованый, 300 г, деревянная рукоятка',
+ 'parameters': {'Вес бойка (г)': '300.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '30.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '2.3'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214403_03.jpg'],
+ 'price': 197.0}
+2020-07-05 07:13:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405.jpg> (referer: None)
+2020-07-05 07:13:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405.jpg> referred in <None>
+2020-07-05 07:13:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-matrix-82359968/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:14:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_01.jpg> (referer: None)
+2020-07-05 07:14:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_01.jpg> referred in <None>
+2020-07-05 07:14:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_02.jpg> (referer: None)
+2020-07-05 07:14:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_02.jpg> referred in <None>
+2020-07-05 07:14:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_03.jpg> (referer: None)
+2020-07-05 07:14:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_03.jpg> referred in <None>
+2020-07-05 07:14:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-kovanyy-82214405/>
+{'_id': '82214405',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-kovanyy-82214405/',
+ 'name': 'Молоток кованый, 800 г, деревянная рукоятка',
+ 'parameters': {'Вес бойка (г)': '800.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '35.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '3.3'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214405_03.jpg'],
+ 'price': 342.0}
+2020-07-05 07:14:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519.jpg> (referer: None)
+2020-07-05 07:14:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519.jpg> referred in <None>
+2020-07-05 07:14:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-s-izognutym-gvozdoderom-stanley-fatmax-antivibe-567-g-82173158/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:14:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-topor-spec-82280110/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA&page=2)
+2020-07-05 07:14:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_01.jpg> (referer: None)
+2020-07-05 07:14:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_01.jpg> referred in <None>
+2020-07-05 07:14:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_02.jpg> (referer: None)
+2020-07-05 07:14:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_02.jpg> referred in <None>
+2020-07-05 07:14:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_03.jpg> (referer: None)
+2020-07-05 07:14:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_03.jpg> referred in <None>
+2020-07-05 07:14:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-matrix-82356519/>
+{'_id': '82356519',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-matrix-82356519/',
+ 'name': 'Киянка Matrix, 225 г, резиновая с фиберглассовой ручкой',
+ 'parameters': {'Вес': '0.361',
+                'Вес, кг': '2.66',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '25.0',
+                'Марка': 'MATRIX',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Двухкомпонентный',
+                'Модель продукта': 'киянка',
+                'Основной материал': 'Резина',
+                'Применение продукта': 'Предназначены для монтажных и '
+                                       'сборочных работ, а также для укладки '
+                                       'напольной, стеновой и тротуарной '
+                                       'плитки.',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82356519_03.jpg'],
+ 'price': 335.0}
+2020-07-05 07:14:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968.jpg> (referer: None)
+2020-07-05 07:14:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968.jpg> referred in <None>
+2020-07-05 07:14:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_01.jpg> (referer: None)
+2020-07-05 07:14:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_01.jpg> referred in <None>
+2020-07-05 07:14:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_02.jpg> (referer: None)
+2020-07-05 07:14:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_02.jpg> referred in <None>
+2020-07-05 07:14:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_03.jpg> (referer: None)
+2020-07-05 07:14:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_03.jpg> referred in <None>
+2020-07-05 07:14:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-matrix-82359968/>
+{'_id': '82359968',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-matrix-82359968/',
+ 'name': 'Киянка Matrix, 680 г, резиновая с фиберглассовой ручкой',
+ 'parameters': {'Вес': '0.86',
+                'Вес, кг': '5.75',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '27.0',
+                'Марка': 'MATRIX',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Двухкомпонентный',
+                'Модель продукта': 'киянка',
+                'Основной материал': 'Резина',
+                'Применение продукта': 'Предназначены для монтажных и '
+                                       'сборочных работ, а также для укладки '
+                                       'напольной, стеновой и тротуарной '
+                                       'плитки.',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82359968_03.jpg'],
+ 'price': 571.0}
+2020-07-05 07:14:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158.jpg> (referer: None)
+2020-07-05 07:14:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158.jpg> referred in <None>
+2020-07-05 07:14:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_01.jpg> (referer: None)
+2020-07-05 07:14:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_01.jpg> referred in <None>
+2020-07-05 07:14:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_02.jpg> (referer: None)
+2020-07-05 07:14:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_02.jpg> referred in <None>
+2020-07-05 07:14:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexell-800-g-s-fiberglassovoy-ruchkoy-13978251/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:14:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_03.jpg> (referer: None)
+2020-07-05 07:14:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_03.jpg> referred in <None>
+2020-07-05 07:14:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-800-g-s-derevyannoy-ruchkoy-17867727/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:14:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_04.jpg> (referer: None)
+2020-07-05 07:14:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_04.jpg> referred in <None>
+2020-07-05 07:14:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_05.jpg> (referer: None)
+2020-07-05 07:14:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_05.jpg> referred in <None>
+2020-07-05 07:14:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-s-izognutym-gvozdoderom-stanley-fatmax-antivibe-567-g-82173158/>
+{'_id': '82173158',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-s-izognutym-gvozdoderom-stanley-fatmax-antivibe-567-g-82173158/',
+ 'name': 'Молоток с изогнутым гвоздодером Stanley FatMax AntiVibe 567 г, '
+         'композитная рукоятка',
+ 'parameters': {'Вес бойка (г)': '567.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '28.0',
+                'Материал ручки': 'Композитный трехкомпонентный',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Мексика',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '3.4'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82173158_05.jpg'],
+ 'price': 2343.0}
+2020-07-05 07:14:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110.jpg> (referer: None)
+2020-07-05 07:14:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110.jpg> referred in <None>
+2020-07-05 07:14:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_01.jpg> (referer: None)
+2020-07-05 07:14:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_01.jpg> referred in <None>
+2020-07-05 07:14:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_02.jpg> (referer: None)
+2020-07-05 07:14:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_02.jpg> referred in <None>
+2020-07-05 07:14:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_03.jpg> (referer: None)
+2020-07-05 07:14:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_03.jpg> referred in <None>
+2020-07-05 07:14:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-topor-spec-82280110/>
+{'_id': '82280110',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-topor-spec-82280110/',
+ 'name': 'Молоток-топор Спец, 600 г, фиберглассовая рукоятка',
+ 'parameters': {'Вес бойка (г)': '600.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '21.0',
+                'Материал ручки': 'Стекловолокно/Фибергласс',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток кровельщика',
+                'Ширина головы (см)': '18.0'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82280110_03.jpg'],
+ 'price': 608.0}
+2020-07-05 07:14:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251.jpg> (referer: None)
+2020-07-05 07:14:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251.jpg> referred in <None>
+2020-07-05 07:14:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_01.jpg> (referer: None)
+2020-07-05 07:14:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_01.jpg> referred in <None>
+2020-07-05 07:14:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-kovanyy-82214404/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:14:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_02.jpg> (referer: None)
+2020-07-05 07:14:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_02.jpg> referred in <None>
+2020-07-05 07:14:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-81968477/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:14:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_03.jpg> (referer: None)
+2020-07-05 07:14:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_03.jpg> referred in <None>
+2020-07-05 07:14:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_04.jpg> (referer: None)
+2020-07-05 07:14:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_04.jpg> referred in <None>
+2020-07-05 07:14:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexell-800-g-s-fiberglassovoy-ruchkoy-13978251/>
+{'_id': '13978251',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexell-800-g-s-fiberglassovoy-ruchkoy-13978251/',
+ 'name': 'Молоток слесарный Dexell 800 г с фиберглассовой ручкой',
+ 'parameters': {'Вес бойка (г)': '800.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '36.0',
+                'Материал ручки': 'Стекловолокно/Фибергласс',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '12.8'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/13978251_04.jpg'],
+ 'price': 211.0}
+2020-07-05 07:14:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727.jpg> (referer: None)
+2020-07-05 07:14:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727.jpg> referred in <None>
+2020-07-05 07:14:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_01.jpg> (referer: None)
+2020-07-05 07:14:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_01.jpg> referred in <None>
+2020-07-05 07:14:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_02.jpg> (referer: None)
+2020-07-05 07:14:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_02.jpg> referred in <None>
+2020-07-05 07:14:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-plitochnika-dexter-stalnoy-18850417/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:14:52 [scrapy.extensions.logstats] INFO: Crawled 161 pages (at 41 pages/min), scraped 27 items (at 7 items/min)
+2020-07-05 07:14:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-systec-225-g-rezinovaya-s-derevyannoy-ruchkoy-15109324/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:14:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_03.jpg> (referer: None)
+2020-07-05 07:14:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_03.jpg> referred in <None>
+2020-07-05 07:14:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-800-g-s-derevyannoy-ruchkoy-17867727/>
+{'_id': '17867727',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-800-g-s-derevyannoy-ruchkoy-17867727/',
+ 'name': 'Молоток слесарный 800 г  с деревянной ручкой',
+ 'parameters': {'Вес бойка (г)': '800.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '35.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Углеродистая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '13.0'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867727_03.jpg'],
+ 'price': 163.0}
+2020-07-05 07:14:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404.jpg> (referer: None)
+2020-07-05 07:14:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404.jpg> referred in <None>
+2020-07-05 07:14:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_01.jpg> (referer: None)
+2020-07-05 07:14:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_01.jpg> referred in <None>
+2020-07-05 07:14:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_02.jpg> (referer: None)
+2020-07-05 07:14:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_02.jpg> referred in <None>
+2020-07-05 07:15:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_03.jpg> (referer: None)
+2020-07-05 07:15:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_03.jpg> referred in <None>
+2020-07-05 07:15:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-kovanyy-82214404/>
+{'_id': '82214404',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-kovanyy-82214404/',
+ 'name': 'Молоток кованый, 500 г, деревянная рукоятка',
+ 'parameters': {'Вес бойка (г)': '500.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '32.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '2.7'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82214404_03.jpg'],
+ 'price': 248.0}
+2020-07-05 07:15:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968477.jpg> (referer: None)
+2020-07-05 07:15:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968477.jpg> referred in <None>
+2020-07-05 07:15:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968477_01.jpg> (referer: None)
+2020-07-05 07:15:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968477_01.jpg> referred in <None>
+2020-07-05 07:15:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-81968477/>
+{'_id': '81968477',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-81968477/',
+ 'name': 'Молоток слесарный Dexter, 100 г, фиберглассовая рукоятка',
+ 'parameters': {'Вес бойка (г)': '100.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '26.0',
+                'Материал ручки': 'Стекловолокно/Фибергласс',
+                'Основной материал': 'Углеродистая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Немецкий молот',
+                'Ширина головы (см)': '0.15'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968477.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968477_01.jpg'],
+ 'price': 288.0}
+2020-07-05 07:15:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417.jpg> (referer: None)
+2020-07-05 07:15:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417.jpg> referred in <None>
+2020-07-05 07:15:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_01.jpg> (referer: None)
+2020-07-05 07:15:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_01.jpg> referred in <None>
+2020-07-05 07:15:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_02.jpg> (referer: None)
+2020-07-05 07:15:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_02.jpg> referred in <None>
+2020-07-05 07:15:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-zhestyanshchika-dexter-350-g-81968473/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:15:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_03.jpg> (referer: None)
+2020-07-05 07:15:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_03.jpg> referred in <None>
+2020-07-05 07:15:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-dexter-450-g-rezinovaya-s-derevyannoy-ruchkoy-81968472/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:15:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_04.jpg> (referer: None)
+2020-07-05 07:15:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_04.jpg> referred in <None>
+2020-07-05 07:15:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_05.jpg> (referer: None)
+2020-07-05 07:15:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_05.jpg> referred in <None>
+2020-07-05 07:15:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-plitochnika-dexter-stalnoy-18850417/>
+{'_id': '18850417',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-plitochnika-dexter-stalnoy-18850417/',
+ 'name': 'Молоток плиточника Dexter стальной',
+ 'parameters': {'Вес бойка (г)': '150.0',
+                'Гарантия (лет)': '1',
+                'Длина ручки (см)': '24.0',
+                'Материал ручки': 'Металл',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '2.0'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18850417_05.jpg'],
+ 'price': 298.0}
+2020-07-05 07:15:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324.jpg> (referer: None)
+2020-07-05 07:15:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324.jpg> referred in <None>
+2020-07-05 07:15:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-systec-450-g-rezinovaya-s-derevyannoy-ruchkoy-15109316/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:15:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_01.jpg> (referer: None)
+2020-07-05 07:15:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_01.jpg> referred in <None>
+2020-07-05 07:15:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-500-g-s-derevyannoy-ruchkoy-17867719/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:15:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_02.jpg> (referer: None)
+2020-07-05 07:15:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_02.jpg> referred in <None>
+2020-07-05 07:15:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_03.jpg> (referer: None)
+2020-07-05 07:15:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_03.jpg> referred in <None>
+2020-07-05 07:15:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-systec-225-g-rezinovaya-s-derevyannoy-ruchkoy-15109324/>
+{'_id': '15109324',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-systec-225-g-rezinovaya-s-derevyannoy-ruchkoy-15109324/',
+ 'name': 'Киянка Systec 225 г резиновая с деревянной ручкой',
+ 'parameters': {'Вес': '0.287',
+                'Вес, кг': '0.308',
+                'Гарантия (лет)': '1',
+                'Длина ручки (см)': '28.7',
+                'Марка': 'SYSTEC',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Резинка',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109324_03.jpg'],
+ 'price': 100.0}
+2020-07-05 07:15:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968473.jpg> (referer: None)
+2020-07-05 07:15:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968473.jpg> referred in <None>
+2020-07-05 07:15:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968473_01.jpg> (referer: None)
+2020-07-05 07:15:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968473_01.jpg> referred in <None>
+2020-07-05 07:15:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-zhestyanshchika-dexter-350-g-81968473/>
+{'_id': '81968473',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-zhestyanshchika-dexter-350-g-81968473/',
+ 'name': 'Молоток жестянщика Dexter 350 г',
+ 'parameters': {'Вес бойка (г)': '350.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '26.0',
+                'Материал ручки': 'Лакированное дерево',
+                'Основной материал': 'Углеродистая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоточек',
+                'Ширина головы (см)': '2.8'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968473.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968473_01.jpg'],
+ 'price': 298.0}
+2020-07-05 07:15:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968472.jpg> (referer: None)
+2020-07-05 07:15:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968472.jpg> referred in <None>
+2020-07-05 07:15:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968472_01.jpg> (referer: None)
+2020-07-05 07:15:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968472_01.jpg> referred in <None>
+2020-07-05 07:15:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-dexter-450-g-rezinovaya-s-derevyannoy-ruchkoy-81968472/>
+{'_id': '81968472',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-dexter-450-g-rezinovaya-s-derevyannoy-ruchkoy-81968472/',
+ 'name': 'Киянка Dexter 450 г резиновая с деревянной ручкой, цвет чёрно-белый',
+ 'parameters': {'Вес': '0.55',
+                'Вес, кг': '0.568',
+                'Гарантия (лет)': '1',
+                'Длина ручки (см)': '26.0',
+                'Марка': 'DEXTER',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Резина',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968472.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968472_01.jpg'],
+ 'price': 296.0}
+2020-07-05 07:15:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-spec-82116378/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:15:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316.jpg> (referer: None)
+2020-07-05 07:15:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316.jpg> referred in <None>
+2020-07-05 07:15:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-spec-82116377/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:15:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_01.jpg> (referer: None)
+2020-07-05 07:15:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_01.jpg> referred in <None>
+2020-07-05 07:15:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_02.jpg> (referer: None)
+2020-07-05 07:15:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_02.jpg> referred in <None>
+2020-07-05 07:15:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_03.jpg> (referer: None)
+2020-07-05 07:15:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_03.jpg> referred in <None>
+2020-07-05 07:15:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-systec-450-g-rezinovaya-s-derevyannoy-ruchkoy-15109316/>
+{'_id': '15109316',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-systec-450-g-rezinovaya-s-derevyannoy-ruchkoy-15109316/',
+ 'name': 'Киянка Systec 450 г резиновая с деревянной ручкой',
+ 'parameters': {'Вес': '0.55',
+                'Вес, кг': '0.561',
+                'Гарантия (лет)': '1',
+                'Длина ручки (см)': '32.0',
+                'Марка': 'SYSTEC',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Резинка',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109316_03.jpg'],
+ 'price': 184.0}
+2020-07-05 07:15:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719.jpg> (referer: None)
+2020-07-05 07:15:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719.jpg> referred in <None>
+2020-07-05 07:15:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719_01.jpg> (referer: None)
+2020-07-05 07:15:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719_01.jpg> referred in <None>
+2020-07-05 07:15:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719_02.jpg> (referer: None)
+2020-07-05 07:15:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719_02.jpg> referred in <None>
+2020-07-05 07:15:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-500-g-s-derevyannoy-ruchkoy-17867719/>
+{'_id': '17867719',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-500-g-s-derevyannoy-ruchkoy-17867719/',
+ 'name': 'Молоток слесарный 500 г с деревянной ручкой',
+ 'parameters': {'Вес бойка (г)': '500.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '32.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Углеродистая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '11.5'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17867719_02.jpg'],
+ 'price': 121.0}
+2020-07-05 07:15:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378.jpg> (referer: None)
+2020-07-05 07:15:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378.jpg> referred in <None>
+2020-07-05 07:15:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_01.jpg> (referer: None)
+2020-07-05 07:15:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_01.jpg> referred in <None>
+2020-07-05 07:15:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_02.jpg> (referer: None)
+2020-07-05 07:15:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_02.jpg> referred in <None>
+2020-07-05 07:15:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_03.jpg> (referer: None)
+2020-07-05 07:15:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_03.jpg> referred in <None>
+2020-07-05 07:15:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_04.jpg> (referer: None)
+2020-07-05 07:15:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_04.jpg> referred in <None>
+2020-07-05 07:15:52 [scrapy.extensions.logstats] INFO: Crawled 201 pages (at 40 pages/min), scraped 36 items (at 9 items/min)
+2020-07-05 07:15:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_05.jpg> (referer: None)
+2020-07-05 07:15:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_05.jpg> referred in <None>
+2020-07-05 07:15:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-spec-82116378/>
+{'_id': '82116378',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-spec-82116378/',
+ 'name': 'Молоток слесарный «Спец», 800 г, деревянная рукоятка',
+ 'parameters': {'Вес бойка (г)': '800.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '35.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '2.4'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116378_05.jpg'],
+ 'price': 220.0}
+2020-07-05 07:15:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-systec-680-g-rezinovaya-s-derevyannoy-ruchkoy-15109308/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:15:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377.jpg> (referer: None)
+2020-07-05 07:15:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377.jpg> referred in <None>
+2020-07-05 07:15:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/kiyanka-systec-1250-g-rezinovaya-s-derevyannoy-ruchkoy-15109295/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:15:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_01.jpg> (referer: None)
+2020-07-05 07:15:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_01.jpg> referred in <None>
+2020-07-05 07:15:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_02.jpg> (referer: None)
+2020-07-05 07:15:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_02.jpg> referred in <None>
+2020-07-05 07:16:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_03.jpg> (referer: None)
+2020-07-05 07:16:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_03.jpg> referred in <None>
+2020-07-05 07:16:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_04.jpg> (referer: None)
+2020-07-05 07:16:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_04.jpg> referred in <None>
+2020-07-05 07:16:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_05.jpg> (referer: None)
+2020-07-05 07:16:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_05.jpg> referred in <None>
+2020-07-05 07:16:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-dexter-rezinovyy-81968469/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:16:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_06.jpg> (referer: None)
+2020-07-05 07:16:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_06.jpg> referred in <None>
+2020-07-05 07:16:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-spec-82116377/>
+{'_id': '82116377',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-spec-82116377/',
+ 'name': 'Молоток слесарный «Спец», 500 г, деревянная рукоятка',
+ 'parameters': {'Вес бойка (г)': '500.0',
+                'Гарантия (лет)': 'Отсутствует',
+                'Длина ручки (см)': '32.0',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток слесарный',
+                'Ширина головы (см)': '2.2'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_03.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_04.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_05.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82116377_06.jpg'],
+ 'price': 168.0}
+2020-07-05 07:16:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-81968474/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:16:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308.jpg> (referer: None)
+2020-07-05 07:16:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308.jpg> referred in <None>
+2020-07-05 07:16:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_01.jpg> (referer: None)
+2020-07-05 07:16:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_01.jpg> referred in <None>
+2020-07-05 07:16:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_02.jpg> (referer: None)
+2020-07-05 07:16:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_02.jpg> referred in <None>
+2020-07-05 07:16:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-gvozdoder-dexter-pro-450-g-fiberglassovaya-rukoyatka-81968492/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:16:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_03.jpg> (referer: None)
+2020-07-05 07:16:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_03.jpg> referred in <None>
+2020-07-05 07:16:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-systec-680-g-rezinovaya-s-derevyannoy-ruchkoy-15109308/>
+{'_id': '15109308',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-systec-680-g-rezinovaya-s-derevyannoy-ruchkoy-15109308/',
+ 'name': 'Киянка Systec 680 г резиновая с деревянной ручкой',
+ 'parameters': {'Вес': '0.835',
+                'Вес, кг': '0.8',
+                'Гарантия (лет)': '1',
+                'Длина ручки (см)': '33.5',
+                'Марка': 'SYSTEC',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Резинка',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_01.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_02.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109308_03.jpg'],
+ 'price': 231.0}
+2020-07-05 07:16:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-dexter-rezinovyy-81968470/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:16:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109295.jpg> (referer: None)
+2020-07-05 07:16:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109295.jpg> referred in <None>
+2020-07-05 07:16:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109295_01.jpg> (referer: None)
+2020-07-05 07:16:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109295_01.jpg> referred in <None>
+2020-07-05 07:16:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/kiyanka-systec-1250-g-rezinovaya-s-derevyannoy-ruchkoy-15109295/>
+{'_id': '15109295',
+ 'link': 'https://samara.leroymerlin.ru/product/kiyanka-systec-1250-g-rezinovaya-s-derevyannoy-ruchkoy-15109295/',
+ 'name': 'Киянка Systec 1250 г резиновая с деревянной ручкой',
+ 'parameters': {'Вес': '1.328',
+                'Вес, кг': '1.45',
+                'Гарантия (лет)': '1',
+                'Длина ручки (см)': '38.0',
+                'Марка': 'SYSTEC',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Резинка',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109295.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/15109295_01.jpg'],
+ 'price': 252.0}
+2020-07-05 07:16:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968469.jpg> (referer: None)
+2020-07-05 07:16:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968469.jpg> referred in <None>
+2020-07-05 07:16:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-23-mm-81968475/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:16:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968469_01.jpg> (referer: None)
+2020-07-05 07:16:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968469_01.jpg> referred in <None>
+2020-07-05 07:16:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-dexter-rezinovyy-81968469/>
+{'_id': '81968469',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-dexter-rezinovyy-81968469/',
+ 'name': 'Молоток Dexter резиновый',
+ 'parameters': {'Вес': '615.0',
+                'Вес, кг': '0.532',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '26.0',
+                'Марка': 'DEXTER',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Резина',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968469.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968469_01.jpg'],
+ 'price': 198.0}
+2020-07-05 07:16:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-dexter-81968490/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:16:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968474.jpg> (referer: None)
+2020-07-05 07:16:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968474.jpg> referred in <None>
+2020-07-05 07:16:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968474_01.jpg> (referer: None)
+2020-07-05 07:16:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968474_01.jpg> referred in <None>
+2020-07-05 07:16:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-81968474/>
+{'_id': '81968474',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-81968474/',
+ 'name': 'Молоток слесарный Dexter, 800 г',
+ 'parameters': {'Вес бойка (г)': '800.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '32.0',
+                'Материал ручки': 'Стекловолокно/Фибергласс',
+                'Основной материал': 'Углеродистая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Немецкий молот',
+                'Ширина головы (см)': '0.33'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968474.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968474_01.jpg'],
+ 'price': 573.0}
+2020-07-05 07:16:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968492.jpg> (referer: None)
+2020-07-05 07:16:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968492.jpg> referred in <None>
+2020-07-05 07:16:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://samara.leroymerlin.ru/product/molotok-gvozdoder-dexter-450-g-fiberglassovaya-rukoyatka-81968478/> (referer: https://samara.leroymerlin.ru/search/?q=%D0%BC%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BA)
+2020-07-05 07:16:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968492_01.jpg> (referer: None)
+2020-07-05 07:16:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968492_01.jpg> referred in <None>
+2020-07-05 07:16:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-gvozdoder-dexter-pro-450-g-fiberglassovaya-rukoyatka-81968492/>
+{'_id': '81968492',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-gvozdoder-dexter-pro-450-g-fiberglassovaya-rukoyatka-81968492/',
+ 'name': 'Молоток-гвоздодер Dexter Pro 450 г фиберглассовая рукоятка',
+ 'parameters': {'Вес бойка (г)': '450.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '23.0',
+                'Материал ручки': 'Стекловолокно/Фибергласс',
+                'Основной материал': 'Углеродистая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '0.37'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968492.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968492_01.jpg'],
+ 'price': 1158.0}
+2020-07-05 07:16:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968470.jpg> (referer: None)
+2020-07-05 07:16:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968470.jpg> referred in <None>
+2020-07-05 07:16:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968470_01.jpg> (referer: None)
+2020-07-05 07:16:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968470_01.jpg> referred in <None>
+2020-07-05 07:16:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-dexter-rezinovyy-81968470/>
+{'_id': '81968470',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-dexter-rezinovyy-81968470/',
+ 'name': 'Молоток Dexter резиновый',
+ 'parameters': {'Вес': '615.0',
+                'Вес, кг': '0.636',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '26.0',
+                'Марка': 'DEXTER',
+                'Материал головки': 'Резина',
+                'Материал ручки': 'Дерево',
+                'Основной материал': 'Резина',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968470.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968470_01.jpg'],
+ 'price': 260.0}
+2020-07-05 07:16:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968475.jpg> (referer: None)
+2020-07-05 07:16:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968475.jpg> referred in <None>
+2020-07-05 07:16:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968475_01.jpg> (referer: None)
+2020-07-05 07:16:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968475_01.jpg> referred in <None>
+2020-07-05 07:16:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-23-mm-81968475/>
+{'_id': '81968475',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-slesarnyy-dexter-23-mm-81968475/',
+ 'name': 'Молоток слесарный Dexter 23 мм, 300 г',
+ 'parameters': {'Вес бойка (г)': '300.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '28.0',
+                'Материал ручки': 'Пластик',
+                'Основной материал': 'Углеродистая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Немецкий молот',
+                'Ширина головы (см)': '0.23'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968475.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968475_01.jpg'],
+ 'price': 344.0}
+2020-07-05 07:16:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490.jpg> (referer: None)
+2020-07-05 07:16:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490.jpg> referred in <None>
+2020-07-05 07:16:38 [scrapy.pipelines.files] ERROR: File (unknown-error): Error processing file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+StopIteration: <200 https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490.jpg>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\pipelines\files.py", line 496, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\pipelines\images.py", line 108, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\pipelines\images.py", line 120, in image_downloaded
+    headers={'Content-Type': 'image/jpeg'})
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\pipelines\files.py", line 53, in persist_file
+    with open(absolute_path, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'images/81968490_Молоток Dexter, \\81968490.jpg'
+2020-07-05 07:16:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490_01.jpg> (referer: None)
+2020-07-05 07:16:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490_01.jpg> referred in <None>
+2020-07-05 07:16:39 [scrapy.pipelines.files] ERROR: File (unknown-error): Error processing file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490_01.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+StopIteration: <200 https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490_01.jpg>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\pipelines\files.py", line 496, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\pipelines\images.py", line 108, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\pipelines\images.py", line 120, in image_downloaded
+    headers={'Content-Type': 'image/jpeg'})
+  File "C:\Users\Smart\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\pipelines\files.py", line 53, in persist_file
+    with open(absolute_path, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'images/81968490_Молоток Dexter, \\81968490_01.jpg'
+2020-07-05 07:16:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-dexter-81968490/>
+{'_id': '81968490',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-dexter-81968490/',
+ 'name': 'Молоток Dexter, 1500 г, пластиковая рукоятка',
+ 'parameters': {'Вес': '1500',
+                'Вес, кг': '1.768',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '23.5',
+                'Марка': 'DEXTER',
+                'Материал головки': 'Сталь',
+                'Материал ручки': 'Двухкомпонентный',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Киянка',
+                'Тип упаковки': 'Без упаковки'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968490_01.jpg'],
+ 'price': 772.0}
+2020-07-05 07:16:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968478.jpg> (referer: None)
+2020-07-05 07:16:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968478.jpg> referred in <None>
+2020-07-05 07:16:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968478_01.jpg> (referer: None)
+2020-07-05 07:16:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968478_01.jpg> referred in <None>
+2020-07-05 07:16:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://samara.leroymerlin.ru/product/molotok-gvozdoder-dexter-450-g-fiberglassovaya-rukoyatka-81968478/>
+{'_id': '81968478',
+ 'link': 'https://samara.leroymerlin.ru/product/molotok-gvozdoder-dexter-450-g-fiberglassovaya-rukoyatka-81968478/',
+ 'name': 'Молоток-гвоздодер Dexter 450 г фиберглассовая рукоятка',
+ 'parameters': {'Вес бойка (г)': '450.0',
+                'Гарантия (лет)': '2',
+                'Длина ручки (см)': '28.8',
+                'Материал ручки': 'Стекловолокно/Фибергласс',
+                'Основной материал': 'Кованая сталь',
+                'Страна производства': 'Китай',
+                'Тип продукта': 'Молоток столярный',
+                'Ширина головы (см)': '3.0'},
+ 'photos': ['https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968478.jpg',
+            'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/81968478_01.jpg'],
+ 'price': 521.0}
+2020-07-05 07:16:43 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-07-05 07:16:43 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 104305,
+ 'downloader/request_count': 238,
+ 'downloader/request_method_count/GET': 238,
+ 'downloader/response_bytes': 35125997,
+ 'downloader/response_count': 238,
+ 'downloader/response_status_count/200': 238,
+ 'elapsed_time_seconds': 350.201011,
+ 'file_count': 189,
+ 'file_status_count/downloaded': 189,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 7, 5, 3, 16, 43, 31991),
+ 'item_scraped_count': 47,
+ 'log_count/DEBUG': 474,
+ 'log_count/ERROR': 3,
+ 'log_count/INFO': 15,
+ 'request_depth_max': 2,
+ 'response_received_count': 238,
+ 'scheduler/dequeued': 49,
+ 'scheduler/dequeued/memory': 49,
+ 'scheduler/enqueued': 49,
+ 'scheduler/enqueued/memory': 49,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2020, 7, 5, 3, 10, 52, 830980)}
+2020-07-05 07:16:43 [scrapy.core.engine] INFO: Spider closed (finished)
+Всего в базе данных 47 позиций
+
+Process finished with exit code 0
