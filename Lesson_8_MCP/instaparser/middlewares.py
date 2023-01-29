@@ -9,7 +9,7 @@ from scrapy import signals
 import time
 from scrapy.utils.response import response_status_message
 
-from scrapy.downloadermiddlewares.retry import RetryMiddleware      #Подключил дополнительно
+from scrapy.downloadermiddlewares.retry import RetryMiddleware      
 
 
 class TooManyRequestsRetryMiddleware(RetryMiddleware):
